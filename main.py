@@ -1,4 +1,3 @@
-import os
 import functionality as f
 
 # Creating file if not already made

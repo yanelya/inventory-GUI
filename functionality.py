@@ -1,6 +1,7 @@
 
 from tkmacosx import Button
 import tkinter as tk
+import os
 
 
 # initializes a window with a title bar
