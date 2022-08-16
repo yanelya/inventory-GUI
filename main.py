@@ -1,5 +1,5 @@
 import os
-import frontend as fe
+import functionality as f
 
 # Creating file if not already made
 try:
@@ -10,7 +10,7 @@ except IOError:
 else:
     all_items.close()
 
-fe.menu_interface("Add Item")
-fe.add()
+f.menu_interface("Add Item")
+f.add()
 
-fe.root.mainloop()
+f.root.mainloop()
